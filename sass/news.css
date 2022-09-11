@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap"); /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #431d1d;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(13, 13, 13);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(2, 2, 2);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Oswald";
+}
+
+.container nav {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  position: fixed;
+  z-index: 10000;
+}
+.container nav .logo {
+  width: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container nav .logo img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 60px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.container nav ul {
+  padding: 5px 10px;
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container nav ul li {
+  padding: 15px;
+  list-style: none;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 500ms;
+}
+.container nav ul li:hover {
+  background-color: rgba(255, 255, 255, 0.842);
+  color: crimson;
+}/*# sourceMappingURL=news.css.map */
